@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Optional to hide overflow */
+  }
+  
+
+
+.head{
+    font-size: 2.3rem;
+}
+.hero-ill{
+    width: 100%;
+}
+.div{
+    margin-left:49%;
+}
+
+    
+    /* height:100% ; */
+    /* background-image: url(./images/payment-suite-f883499d.png);
+    position: absolute;
+    z-index: 1; */
+
+.section1{
+    
+    min-height: 500px;
+    box-sizing:border-box;
+    margin: auto;
+
+    border: solid 1px  #e2e2e2;
+    border-radius: 0.5rem;
+    /* padding: 0 auto; */
+}
+.select{
+    user-select: none;
+}
+.img1{
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transform: scale(2.4);
+    right: -28rem;
+    top: 40rem;
+    
+}
+.img{
+ 
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;   
+}
+.sec{
+    height: 100%;
+    border: solid 1px #959595;
+}
+.shape{
+    background-color:#61cea6;
+    width:3rem ;
+    height: 3.8rem;
+    transform:skew(20deg)
+    
+}
+.section2{
+    background-repeat: no-repeat;
+    
+    /* transform: translateZ(45px) scale(1.5); */
+}
+/* forbox */
+.box:hover{
+    box-shadow: 0px 4px 20px rgba(225, 221, 225, 0.6), 
+    0px 10px 40px rgba(252, 253, 252, 0.4); /* Bright and light shadow */
+}
+
+.card_bg {
+    transform: scale(1);
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
+    background-repeat: no-repeat;
+}
+
+.card_bg:hover {
+    background-image: url(/images/instant-settlement-bghover.svg);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.card_bg2 {
+    transform: scale(1);
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
+    background-repeat: no-repeat;
+}
+
+.card_bg2:hover {
+    background-image: url(/images/upi-autopay-hoverbg.svg);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.card_bg3 {
+    transform: scale(1);
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
+    background-repeat: no-repeat;
+}
+
+.card_bg3:hover {
+    background-image: url(/images/magic-checkout-hoverbg.svg);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.card_bg4 {
+    transform: scale(1);
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
+    background-repeat: no-repeat;
+}
+
+.card_bg4:hover {
+    background-image: url(/images/payment-button-hoverbg.svg);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.card_bg5 {
+    transform: scale(1);
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
+    background-repeat: no-repeat;
+}
+
+.card_bg5:hover {
+    background-image: url(/images/instantsettlement-hoverbg.svg);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+}
+.animation{
+    animation: infinite linear 14s movecompany;
+}
+
+@keyframes movecompany{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:-30rem;
+    }
+}
+/* for icons hover  */
+.icon {
+    display: inline-block; /* Ensures the icon behaves properly */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Scales the icon to 1.2x its original size */
+}
+.circle-gradient {
+    width: 70px; /* Adjust size */
+    height: 70px;
+    border-radius: 50%; /* Makes it circular */
+    background: radial-gradient(circle,rgba(230, 233, 237, 0), rgba(12, 124, 243, 0.418)); /* Light blue gradient */
+    cursor: pointer;
+}
+/* Base styles */
+
+.text_lightBlue a {
+    text-decoration: none;
+    color: inherit; /* Makes links inherit the parent's color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.text_lightBlue a:hover {
+    color: #818597; /* Change to your desired hover color */
+}
