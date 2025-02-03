@@ -2,7 +2,8 @@ const { root } = require('postcss')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*"],
+  content: ["./*.html",
+    "./**/*.html"],
   theme: {
     extend: {
       // <uniquifier>: Use a unique and descriptive class name
