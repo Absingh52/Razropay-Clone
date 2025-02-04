@@ -59,6 +59,15 @@ body, html {
     -webkit-user-select: none;
     -ms-user-select: none;   
 }
+.hero-pattern{
+    background-image: url("./images/feature-section-2BG.svg");
+}
+.core{
+    background-image: url("./images/core-features-sectionBg.svg");
+}
+.laptop-image{
+    background-image: url("./images/CTABg.svg");
+}
 .sec{
     height: 100%;
     border: solid 1px #959595;
