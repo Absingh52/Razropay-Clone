@@ -86,6 +86,8 @@ body, html {
     transition: transform 200ms ease-out, box-shadow 200ms ease-out;
     box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
     background-repeat: no-repeat;
+    background-image: url("./images/instant-settlement-bg.svg");
+
 }
 
 .card_bg:hover {
@@ -98,6 +100,7 @@ body, html {
     transition: transform 200ms ease-out, box-shadow 200ms ease-out;
     box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
     background-repeat: no-repeat;
+    background-image: url("./images/upi-autopay-bg.svg");
 }
 
 .card_bg2:hover {
@@ -110,6 +113,8 @@ body, html {
     transition: transform 200ms ease-out, box-shadow 200ms ease-out;
     box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
     background-repeat: no-repeat;
+     background-image: url("./images/magic-checkout-bg.svg");
+  
 }
 
 .card_bg3:hover {
@@ -122,6 +127,8 @@ body, html {
     transition: transform 200ms ease-out, box-shadow 200ms ease-out;
     box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
     background-repeat: no-repeat;
+    background-image: url("./images/payment-button-bg.svg");
+
 }
 
 .card_bg4:hover {
@@ -134,12 +141,15 @@ body, html {
     transition: transform 200ms ease-out, box-shadow 200ms ease-out;
     box-shadow: 0px 4px 4px rgba(20, 19, 19, 0.05);
     background-repeat: no-repeat;
+    background-image: url("./images/instantsettlement-bg.svg");
+
 }
 
 .card_bg5:hover {
     background-image: url('./images/instantsettlement-hoverbg.svg');
     transform: scale(1.1);
     box-shadow: 0px 8px 8px rgba(20, 19, 19, 0.1);
+    
 }
 .animation{
     animation: infinite linear 14s movecompany;
