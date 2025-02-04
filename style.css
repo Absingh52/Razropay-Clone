@@ -60,13 +60,13 @@ body, html {
     -ms-user-select: none;   
 }
 .hero-pattern{
-    background-image: url("./images/feature-section-2BG.svg");
+    background-image: url('./images/feature-section-2BG.svg');
 }
 .core{
-    background-image: url("./images/core-features-sectionBg.svg");
+    background-image: url('./images/core-features-sectionBg.svg');
 }
 .laptop-image{
-    background-image: url("./images/CTABg.svg");
+    background-image: url('./images/CTABg.svg');
 }
 .sec{
     height: 100%;
