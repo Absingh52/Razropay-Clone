@@ -21,10 +21,7 @@ body, html {
 }
 
     
-    /* height:100% ; */
-    /* background-image: url(./images/payment-suite-f883499d.png);
-    position: absolute;
-    z-index: 1; */
+    
 
 .section1{
     
@@ -201,3 +198,4 @@ body, html {
 .text_lightBlue a:hover {
     color: #818597; /* Change to your desired hover color */
 }
+
